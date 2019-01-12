@@ -7,7 +7,7 @@ class BovadaSpider(scrapy.Spider):
     def start_requests(self):
         #array of Urls to start crawling from
         start_urls = [
-            #'https://www.bovada.lv/sports',
+            #'https://www.bovada.lv/sports/',
             #'https://www.bovada.lv/sports/football',
             'https://www.bovada.lv/sports/basketball'
         ]
